@@ -1,11 +1,13 @@
+/* General Styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: #000;
   color: #fff;
+  overflow-x: hidden;
 }
 
+/* Flex Utilities */
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -18,10 +20,12 @@ body {
   justify-content: center;
 }
 
+/* Minimum Height */
 .min-h-screen {
   min-height: 100vh;
 }
 
+/* Card Styles */
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -34,12 +38,31 @@ body {
   color: #fff;
 }
 
+/* Grid Layout for Days */
 .grid-cols-7 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 16px;
+  gap: 8px;
 }
 
+/* Responsive for Small Screens */
+@media (max-width: 600px) {
+  .grid-cols-7 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+  }
+
+  .w-24 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .text-xs {
+    font-size: 0.65rem;
+  }
+}
+
+/* Margin Utilities */
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -48,11 +71,13 @@ body {
   margin-bottom: 1.5rem;
 }
 
+/* Size Utilities */
 .w-24 {
   width: 6rem;
   height: 6rem;
 }
 
+/* Positioning */
 .absolute {
   position: absolute;
 }
@@ -68,6 +93,7 @@ body {
   left: 0;
 }
 
+/* Font Styles */
 .font-bold {
   font-weight: bold;
 }
