@@ -1,2 +1,1 @@
-# mealTracker
-Created with CodeSandbox
+mealTracker
