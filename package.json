@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/app.js",
   "dependencies": {
     "react-scripts": "3.0.1",
     "react-circular-progressbar": "2.2.0",
