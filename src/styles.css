@@ -25,6 +25,16 @@ body {
   min-height: 100vh;
 }
 
+/* Adjusting Header Spacing */
+.header {
+  margin-bottom: 0.5rem;
+}
+
+/* Ring Container */
+.ring-container {
+  margin: 0.2rem;
+}
+
 /* Card Styles */
 .rounded-2xl {
   border-radius: 1rem;
@@ -38,11 +48,12 @@ body {
   color: #fff;
 }
 
-/* Grid Layout for Days */
+/* Grid Layout for Week */
 .grid-cols-7 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 8px;
+  gap: 4px;
+  margin-top: -0.5rem; /* Reduce gap between header and rings */
 }
 
 /* Responsive for Small Screens */
@@ -68,7 +79,7 @@ body {
 }
 
 .mb-6 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem; /* Reduced spacing */
 }
 
 /* Size Utilities */
