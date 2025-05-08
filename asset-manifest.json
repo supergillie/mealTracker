@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mealTracker/static/css/main.91784b06.css",
+    "main.js": "/mealTracker/static/js/main.32f22783.js",
+    "index.html": "/mealTracker/index.html",
+    "main.91784b06.css.map": "/mealTracker/static/css/main.91784b06.css.map",
+    "main.32f22783.js.map": "/mealTracker/static/js/main.32f22783.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91784b06.css",
+    "static/js/main.32f22783.js"
+  ]
+}
