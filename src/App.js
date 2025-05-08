@@ -34,7 +34,7 @@ const MealRingsApp = () => {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-black text-white p-8">
-      <h1 className="text-2xl mb-6">Måltidsring Månadsvy</h1>
+      <h1 className="text-2xl mb-6">Måltidsvy Maj</h1>
       <div className="grid grid-cols-7 gap-4">
         {monthData.map((day, dayIndex) => (
           <div key={dayIndex} className="flex flex-col items-center">
