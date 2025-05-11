@@ -1,8 +1,8 @@
 {
   "name": "MealTracker",
   "short_name": "MealTracker",
-  "description": "Track your daily meals with ease",
-  "start_url": "/mealTracker/",
+  "description": "A simple meal tracking app",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -13,9 +13,10 @@
       "type": "image/png"
     },
     {
-      "src": "favicon.png",
-      "sizes": "512x512",
+      "src": "splash-screen.png",
+      "sizes": "2048x2732",
       "type": "image/png"
     }
-  ]
+  ],
+  "splash_pages": null
 }
