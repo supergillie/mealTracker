@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mealTracker/static/css/main.9573a856.css",
-    "main.js": "/mealTracker/static/js/main.064880a8.js",
+    "main.css": "/mealTracker/static/css/main.ae30beeb.css",
+    "main.js": "/mealTracker/static/js/main.c13fa232.js",
     "index.html": "/mealTracker/index.html",
-    "main.9573a856.css.map": "/mealTracker/static/css/main.9573a856.css.map",
-    "main.064880a8.js.map": "/mealTracker/static/js/main.064880a8.js.map"
+    "main.ae30beeb.css.map": "/mealTracker/static/css/main.ae30beeb.css.map",
+    "main.c13fa232.js.map": "/mealTracker/static/js/main.c13fa232.js.map"
   },
   "entrypoints": [
-    "static/css/main.9573a856.css",
-    "static/js/main.064880a8.js"
+    "static/css/main.ae30beeb.css",
+    "static/js/main.c13fa232.js"
   ]
 }
